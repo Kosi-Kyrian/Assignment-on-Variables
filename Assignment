@@ -1,1 +1,30 @@
-Variable naming and naming conventions in python programming language
+RULES OF NAMING VARIABLES IN PYTHON
+
+
+1. Must start with a letter or an underscore: A variable name must begin with an uppercase letter (A-Z), a lowercase letter (a-z), or an underscore (_). It cannot start with a number (e.g., 2myvar is illegal).
+
+2. Only allowed characters: Variable names can only contain alpha-numeric characters and underscores (A-z, 0-9, and _). Special characters like spaces, dashes (-), periods (.), or symbols (@, #, $, etc.) are not allowed.
+
+3. Cannot be a reserved keyword: You cannot use any of Python's reserved keywords (like if, else, for, class, print, return, True, False, None) as a variable name, as these words have special meanings in Python.
+
+4. Case-sensitive: Variable names are case-sensitive, meaning that age, Age, and AGE are considered three different variables.
+5.  Use descriptive names: Names should be concise but descriptive to indicate their purpose (e.g., total_price is better than tp).
+6. Use snake_case: The standard convention for variable and function names in Python is to use lowercase letters with underscores to separate words (e.g., user_name, first_name).
+7. Avoid confusing characters: It is best to avoid using the lowercase letter l and the uppercase letter O because they can be easily confused with the numbers 1 and 0.
+8. Constants: Although Python does not have true constants, variables intended to be constants (whose values should not change) are typically named using all uppercase letters with underscores (e.g., MAX_SIZE, FILE_PATH).
+9. Avoid built-in names: Do not override built-in functions or types (like list or str) with your own variable names, as this can cause unexpected errors later. 
+
+
+VARIABLE NAMING CONVENTIONS IN PROGRAMMING
+
+
+1. camelCase: The first word is all lowercase, and the first letter of each subsequent word is capitalized (e.g., userName, calculateTotalPrice). Also known as dromedaryCase. It is widely used for variables, functions, and object properties in languages like JavaScript, Java, and C#.
+
+2. PascalCase: Here the first letter of every word is capitalized, with no spaces or underscores (e.g., UserName, UserProfile). Also known as UpperCamelCase or StudlyCase. It Primarily used for naming classes, interfaces, and components in languages such as Java, C#, and Python.
+
+3. snake_case: In snake_case, words are separated by underscores (_), and all letters are typically lowercase (e.g., user_name, total_score). Also known as pothole_case. The standard for variable and function names in Python and Ruby, and also used in C/C++ standard libraries and database column names.
+
+4. SCREAMING_SNAKE_CASE: All letters are uppercase, and words are separated by underscores (e.g., MAX_CONNECTIONS, TOTAL_SCORE). Also known as CONSTANT_CASE or MACRO_CASE. It is universally used for defining constants across many programming languages, including JavaScript, Python, and C#.
+
+5. kebab-case: Words are separated by hyphens (-), and all letters are typically lowercase (e.g., primary-button, transactions-made). Also known as dash-case or spinal-case. The standard convention for CSS classes, HTML IDs, and file names. It is generally not valid for variable names within most programming languages, as the hyphen is often interpreted as a subtraction operator. 
+
